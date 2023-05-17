@@ -1,0 +1,23 @@
+{
+  "name": "clack-chat",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "clack-chat": "./src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@clack/prompts": "^0.6.3",
+    "chalk": "^5.2.0",
+    "commander": "^10.0.1",
+    "dotenv": "^16.0.3",
+    "node-fetch": "^3.3.1"
+  }
+}
